@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>lilyterm</Name>
+        <Packager>
+            <Name>Remus Şerban</Name>
+            <Email>soapta@yandex.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>system.util</PartOf>
+        <Summary xml:lang="en">Terminal Emulator</Summary>
+        <Description xml:lang="en">LilyTerm is a terminal emulator based off of libvte that aims to be fast and lightweight.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>lilyterm</Name>
+        <Summary xml:lang="en">Terminal Emulator</Summary>
+        <Description xml:lang="en">LilyTerm is a terminal emulator based off of libvte that aims to be fast and lightweight.
+</Description>
+        <PartOf>system.util</PartOf>
+        <Files>
+            <Path fileType="config">/etc/xdg/lilyterm.conf</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/lilyterm.desktop</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="data">/usr/share/pixmaps/lilyterm.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/lilyterm.xpm</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-08-11</Date>
+            <Version>0.9.9.4</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Remus Şerban</Name>
+            <Email>soapta@yandex.com</Email>
+        </Update>
+    </History>
+</PISI>
