@@ -2,10 +2,10 @@
     <Source>
         <Name>lilyterm</Name>
         <Packager>
-            <Name>Remus Şerban</Name>
-            <Email>soapta@yandex.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
-        <License>GPL-3.0</License>
+        <License>GPL-3.0-or-later</License>
         <PartOf>system.util</PartOf>
         <Summary xml:lang="en">Terminal Emulator</Summary>
         <Description xml:lang="en">LilyTerm is a terminal emulator based off of libvte that aims to be fast and lightweight.
@@ -20,22 +20,37 @@
         <PartOf>system.util</PartOf>
         <Files>
             <Path fileType="config">/etc/xdg/lilyterm.conf</Path>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/lilyterm</Path>
             <Path fileType="data">/usr/share/applications/lilyterm.desktop</Path>
-            <Path fileType="doc">/usr/share/doc</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="doc">/usr/share/doc/lilyterm/AUTHORS</Path>
+            <Path fileType="doc">/usr/share/doc/lilyterm/COPYING</Path>
+            <Path fileType="doc">/usr/share/doc/lilyterm/ChangeLog</Path>
+            <Path fileType="doc">/usr/share/doc/lilyterm/examples/lilyterm.conf</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sk/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/LilyTerm.mo</Path>
+            <Path fileType="man">/usr/share/man/man1/lilyterm.1</Path>
             <Path fileType="data">/usr/share/pixmaps/lilyterm.png</Path>
             <Path fileType="data">/usr/share/pixmaps/lilyterm.xpm</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-08-11</Date>
+        <Update release="2">
+            <Date>2018-12-23</Date>
             <Version>0.9.9.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Remus Şerban</Name>
-            <Email>soapta@yandex.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
